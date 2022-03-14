@@ -1,6 +1,6 @@
 import 'dart:math' as math;
 
-//Interface where Client work with
+//Interface which Client work with
 abstract class IGraph {
   void Point(double r, double t);
 }
