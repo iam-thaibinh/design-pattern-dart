@@ -13,6 +13,9 @@ class Person {
     age = newAge;
     return this;
   }
+}
 
-  // Person().changeName("Bob").changeAge(22)
+void main() {
+  Person p = Person("Bin", 23);
+  p.changeName("Bob").changeAge(22);
 }
